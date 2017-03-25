@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Autocomplete</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="autocomplete.css">
+  <style>
+  </style>
+</head>
+<body>
+  <input id="origin" type="text" placeholder="Enter start location">
+  <input id="destination" type="text" placeholder="Enter end location">
+  <div id="map"></div>
+  <script src="autocomplete.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"
+  async defer></script>
+</body>
+</html>
